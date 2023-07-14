@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="Figuras.js"></script>
+</head>
+<body>
+    <p>Calcular area o perimetro de una figura geometrica</p>
+    <main>
+      <section>
+        <article> Figuras: <select name="Figuras" id="miSelect">
+        <option value="tri">Triangulo </option>
+        <option value="cir">Circulo </option>
+        <option value="cua">Cuadrado </select></article>
+        <article> <label for="Base">Base:</label>
+          <input type="number" min="1" id="Base"></article>
+        <article><label for="Altura">Altura:</label>
+          <input type="number" min="1" id="Altura"></article>
+        <div><input type="button" value="Calculo" onclick="Calcular()"><div>
+    </section>
+</body>
+</html>
